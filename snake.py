@@ -41,6 +41,7 @@ while running:
 		direction = 0
 		screen.fill((255,255,255))
 		pygame.time.wait(800)
+		pygame.event.clear()
 	pygame.time.wait(200)
 	changed = False
 	for event in pygame.event.get():
